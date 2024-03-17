@@ -5,7 +5,7 @@ function Bodyer(){
         <div className="card">
                 <img className='card-image' src={gamecard} alt="Game card " />
                 <h2 className='card-'>Ermiyas Eshetu</h2>
-                <p>This is the frist Card in react</p>
+                <p className='card-text'>This is the frist Card in react</p>
         </div>
     );
 

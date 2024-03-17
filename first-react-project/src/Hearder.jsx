@@ -3,10 +3,10 @@
 
 function Header(){
     return(
-       <header>
+       <header className="headman" >
            <h1> Welcome to Manitamance Management System</h1>
-           <nav>
-            <ul>
+           <nav className="parts">
+            <ul className="list">
                 <li><a href="">Home</a></li>
                 <li><a href="">About Us</a></li>
                 <li><a href="">Contact</a></li>

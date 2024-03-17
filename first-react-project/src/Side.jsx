@@ -2,7 +2,7 @@
 function Side(){
 
      return(
-            <div>
+            <div >
                 <p> This is the Side manager page</p>
             </div>
      );

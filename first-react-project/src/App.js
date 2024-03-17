@@ -5,12 +5,13 @@ import Side from "./Side";
 
 function App() {
   return (
-    <>
-      <Header/>
-      <Bodyer/>
-      <Side/>
-      <Footer/>
-      </>
+       <>
+       <Header/>
+       <Side/>
+       <Bodyer/>
+       <Footer/>
+       
+       </>
   );
 }
 
