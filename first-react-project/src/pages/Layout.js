@@ -1,12 +1,10 @@
+import { Outlet, Link } from "react-router-dom";
 
-
-
-function Header(){
-    return(
-       <header>
-           <h1> Welcome to Manitamance Management System</h1>
-           <nav>
-           <ul>
+const Layout = () => {
+  return (
+    <>
+      <nav>
+        <ul>
           <li>
             <Link to="/">Home</Link>
           </li>
@@ -20,10 +18,11 @@ function Header(){
             <Link to="/login">Login</Link>
           </li>
         </ul>
-           
-           </nav>
+      </nav>
 
-       </header>
-    );
-}
-export default Header
+      <Outlet />
+    </>
+  )
+};
+
+export default Layout;
