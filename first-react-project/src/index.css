@@ -13,26 +13,78 @@ code {
 }
 .card{
   border: 1px solid hsl(0, 0%, 80%);
-  box-shadow: 5px 10px 5px hsla(0, 0%, 1%, 0.384);
+  text-align: center;
+  box-shadow: 5px 10px 5px hsla(0, 0%, 1%, 0.89);
   padding :20px;
-  max-width: 250px;
+  width: 750px;
   border-radius: 10px;
+  position: relative;
+  top: 110px;
+  left: 400px;
   margin: 10px;
   display: inline-block;
 }
 .card img{
-  max-width: 200px;
+  width: 750px;
   height: auto;
+  border-radius: 20px;
+  
+ 
 }
 .card-text{
-  color: hsla(0, 0%, 15%, 0.63);
+  color: hsla(0, 0%, 0%, 0.63);
 }
+.card-title{
+  margin-top: -150px;
+  color: #fff;
+  text-shadow: 5px 1px  rgb(144, 162, 212) ;
+  font-size: 30px;
+}
+.label-text{
+  padding:20px;
+  margin-top: 50px;
+}
+.login-input{
+   margin-top:110px;
+   padding: 20px;
+   text-align: center;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: medium;
+
+}
+.login-input input{
+  padding: 5px 10px;
+  margin: 5px;
+  border-radius: 3px;
+
+}
+.login-input button{
+  margin: 5px;
+  padding: 10px 20px;
+  background-color: hsla(0, 0%, 0%, 0.781);
+  border-radius: 10px;
+  border: none;
+  color: #fff;
+}
+.login-input button:hover{
+  box-shadow: 5px 4px 3px rgba(0, 0, 0, 0.4);
+}
+
+/*Header CSS*/
+
 .headman{
   display: flex;
   flex-direction: row;
-  padding: 30px;
-  background-color: black;
+  padding: 10px;
+  background-color: rgb(34, 39, 53);
   color: aliceblue;
+  height: 60px;
+  border-radius: 7px;
+}
+.header-title{
+  margin: 0px;
+  padding-top: 4px;
+  padding-left: 100px;
 }
 .parts ul{
   display: flex;
@@ -44,4 +96,41 @@ code {
   padding: 15px;
   list-style: none;
   color: white;
+}
+/* Side CSS*/
+
+.side-contener{
+  background-color: rgba(34, 39, 53, 0.897);
+  max-width: 200px;
+  margin-left: 0px;
+  border-radius: 9px;
+  text-align: center;
+  font-family:Arial, Helvetica, sans-serif ;
+ 
+  position: absolute;
+  top: 82px;
+  bottom: 0px;
+  left: 0px;
+}
+.side-contener ul {
+  padding:20px;
+
+}
+.side-contener ul li:hover{
+  background-color: #fff;
+  color: black;
+}
+.side-contener h1{
+  color: #fff;
+ font-weight: 600;
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 30px;
+ padding: 6px 30px;
+}
+.side-contener ul li{
+  padding: 20px;
+  text-decoration: none;
+  color: #fff;
+  list-style: none;
+  border-radius: 10px;
 }
